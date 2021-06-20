@@ -50,11 +50,11 @@ pickle.dump('classifier',open('model.pkl','wb'))
 
 model=pickle.load(open('model.pkl','rb'))
 
-model
 
 
 
-t=clf.predict([[0.10,0.8,6,200,4,0,0]])
+
+
 
 
 
