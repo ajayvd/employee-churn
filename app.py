@@ -19,15 +19,6 @@ def predict():
     prediction = model.predict(final_features)
 
     output = prediction[0]
-	
-	  if output==0:
-	  
-		output='will not churn'
-      else:
-	  
-		output='will churn'  
-
-
     return render_template('index.html', prediction_text='Employee  {}'.format(output))
 
 
